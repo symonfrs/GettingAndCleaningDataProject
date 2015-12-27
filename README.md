@@ -104,6 +104,7 @@ STEP 4: Replacing feature names with more descriptive variable names:
 		names(completedata)<-gsub("BodyBody", "Body", names(completedata))
 
 STEP 5: Creating and writing the Tidy dataset:
+
 	# create a dataset with the average of each variable for each activity and each subject
 		library(data.table)
 		DT <- data.table(completedata)
