@@ -49,20 +49,21 @@ The transformation of input data to obtain the output Tidy data involves the fol
 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The R script "run_analysis.R" implements the above transformation through the following steps:
--STEP 1: Extraction of Raw data into R:
+
+- STEP 1: Extraction of Raw data into R:
 	-Extraction of test data
 	-Extraction of training data
 	-Extraction of supporting metadata including featurenames and activities
 	-Extraction of featurenames corresponding to Mean and Standard Deviation of measurements (66 feature variables)	
--STEP 2: Merging of test and training data:
+- STEP 2: Merging of test and training data:
 	-Merging of test and training data pertaining to Subject, Variable data and Activity and then naming them
 	-Combining Subject, Variable data and Activity data fields
--STEP 3: Replacing activity ID with activity names:
+- STEP 3: Replacing activity ID with activity names:
 	-Convert activity Id field to factor and replace with activity names
--STEP 4: Replacing feature names with more descriptive variable names:
+- STEP 4: Replacing feature names with more descriptive variable names:
 	-Replace feature names with more descriptive variable names in the Complete dataset
 	e.g. tBody is replaced with TimeBody and fBody is replaced with FrequencyBody,etc.	
--STEP 5: Creating and writing the Tidy dataset:
+- STEP 5: Creating and writing the Tidy dataset:
 	# create a dataset with the average of each variable for each activity and each subject
 	# Sort the dataset and write it to a text file
 
