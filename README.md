@@ -4,8 +4,10 @@
 ###Overview:
 ===========
 The objective of the above project is to extract and tidy specified portions of the Human Activity Recognition Using Smartphones Dataset (Version 1.0).
-The goal is to prepare tidy data that can be used for later analyses. The input raw data set is available from the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-A full description this raw data is available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.This readme file describes how the R script "run_analysis.R" created for extracting and tidying the data, works. 
+The goal is to prepare tidy data that can be used for later analyses.
+The input raw data set is available from the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+A full description this raw data is available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+This readme file describes how the R script "run_analysis.R" created for extracting and tidying the data, works. 
 ==================================================================
 
 ###Input Data:
