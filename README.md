@@ -1,16 +1,17 @@
 ==================================================================
-Coursera Course: Getting and Cleansing Data - Project
+##Coursera Course: Getting and Cleaning Data - Project
 ==================================================================
-Overview:
-========
+###Overview:
+===========
 The objective of the above project is to extract and tidy specified portions of the Human Activity Recognition Using Smartphones Dataset (Version 1.0).
 The goal is to prepare tidy data that can be used for later analyses. The input raw data set is available from the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 A full description this raw data is available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.  
-This README file describes how an R script "run_analysis.R" created for extracting and tidying the data works. 
+
+This readme file describes how an R script "run_analysis.R" created for extracting and tidying the data works. 
 ==================================================================
 
-Input Data:
-==========
+###Input Data:
+=============
 The input data comprises data from experiments carried out with a group of 30 volunteers (Subjects) within an age bracket of 19-48 years performing 6 Activities 
 (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer 
 and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The obtained dataset contains a vector of features (normalized 
@@ -45,8 +46,9 @@ Project scope:
 - The scope of this project however is limited to extraction of features related to measurements on the mean and standard deviation. As a results, the data
   corresponding to Inertial Signals is not used in the extraction and tidying process.
 
-Processing Steps in "run_analysis.R":
-=====================================
+
+###Processing Steps in "run_analysis.R":
+=========================================
 STEP 1: Extraction of Raw data into R:
 
 	# Extraction of test data
